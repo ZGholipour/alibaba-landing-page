@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*fonts*/
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/woff/IRANSansX-Thin.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/woff/IRANSansX-UltraLight.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-UltraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/woff/IRANSansX-Light.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/woff/IRANSansX-Medium.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/woff/IRANSansX-DemiBold.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-DemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/woff/IRANSansX-ExtraBold.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/woff/IRANSansX-Black.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/woff/IRANSansX-Bold.woff") format("woff"),
+    url("../fonts/woff2/IRANSansX-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/woff/IRANSansX-Regular.woff") format("woff"),
+    url("../../fonts/woff2/IRANSansX-Regular.woff2") format("woff2");
+}
+/*fonts end*/
+
+/*body*/
+body {
+  font-family: IRANSansX;
+}
+
+/*menu start*/
+.navMenu {
+  direction: rtl;
+}
+.Brand {
+  margin-left: 20px !important;
+}
+
+.fa-bars {
+  font-size: x-large;
+}
+li a.dropdown-item {
+  transition: all 0.3s linear;
+}
+li a.dropdown-item:hover {
+  color: #9a9782;
+}
+.menuLeft {
+  color: #555;
+  font-size: 15px;
+}
+/*menu end*/
+
+/*intro section start*/
+.Section {
+  border: 1px solid #e4e7ea;
+  position: relative;
+  margin-top: -100px;
+  margin-bottom: 2.5rem;
+  z-index: 20;
+}
+.introSection {
+  overflow: hidden;
+}
+.introItems {
+  height: max-content;
+  transition: all 0.3s linear;
+}
+.vila {
+  font-size: 15px;
+}
+.introItems:hover {
+  color: #0077db;
+  font-weight: 520;
+  border-bottom: 3px solid #0077db;
+}
+.vila:hover {
+  font-size: 15px;
+  color: #0077db;
+  border-bottom: 3px solid #0077db;
+}
+.Select {
+  width: max-content;
+  direction: rtl;
+}
+
+[placeholder] {
+  direction: rtl !important;
+}
+
+.btn-primary {
+  background-color: #fdb713;
+  border: 1px solid #fbb30c;
+  color: #000;
+  padding: 0.35rem 2rem !important;
+}
+.btn-primary:hover {
+  background-color: #fdb713;
+  border: 1px solid #fbb30c;
+  color: #000;
+  padding: 0.35rem 1.8rem !important;
+}
+/*intro section end*/
+
+/*newService start*/
+.badge {
+  position: relative;
+  top: -20px;
+  right: -80px;
+  height: 22px;
+}
+/*newService end*/
+
+/*cardSection start*/
+.cardImg {
+  border: 1px solid #e4e7ea;
+  height: 15.5rem;
+}
+/*cardSection end*/
+
+/*requestSection start*/
+.imgColor {
+  width: 3rem;
+  background-color: #e8f9fc;
+  padding: 0.3rem;
+}
+.descrip {
+  color: #7a8288;
+}
+.descrip-a {
+  color: #5db1f5;
+  font-size: small;
+}
+.descrip-a:hover {
+  background-color: #e8f9fc;
+  border: 1px solid #5db1f5;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+/*requestSection end*/
+
+/*appSection start*/
+.appSectionRow {
+  border: 1px solid #e4e7ea;
+}
+.appSection {
+  direction: rtl;
+}
+.phone {
+  width: 1.7rem;
+  margin-bottom: 12px;
+}
+.linkDescrip {
+  color: #5db1f5;
+}
+.phoneDescrip {
+  font-size: small;
+  color: #bec6cc;
+}
+.qrImg {
+  width: 11rem;
+  height: 13rem;
+}
+
+/*appSection end*/
+
+/*yourQuestionSection start*/
+.yourQuestionSection {
+  direction: rtl;
+  text-align: right;
+  border-bottom: 1px solid #c2c4c5;
+}
+.imgColor-1 {
+  width: 2rem;
+  background-color: #e8f9fc;
+  padding: 0.3rem;
+}
+
+/*yourQuestionSection end*/
+
+/*DescriptionSection start*/
+.sunImg {
+  width: 34rem;
+  height: 25rem;
+}
+/*DescriptionSection start*/
+.Description {
+  direction: rtl;
+}
+/*DescriptionSection end*/
+
+/*travelSection start*/
+.bg-travel {
+  background-color: #ffffffe0;
+}
+/*travelSection end*/
+/*footerSection start*/
+.footerBorder {
+  padding-top: 1rem;
+  border-top: 1px solid #c2c4c5;
+}
+.footerImgBorder {
+  border: 1px solid #c2c4c5;
+  width: 6rem;
+  height: 6rem;
+}
+.footerNav {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.small {
+  font-size: 0.7rem;
+}
+
+/*footerSection end*/
+/*swiper start*/
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+/*swiper end*/
+
+
+
+/*media query*/
+@media only screen and (max-width: 767px) {
+  .bgColor,
+  .navMenu {
+    background-color: #fdb713;
+  }
+  .Section {
+    margin-top: 0;
+  }
+  .introItems {
+    border-bottom: 1px solid #bbb;
+  }
+  .formSection {
+    display: none !important;
+  }
+  .visa {
+    margin-bottom: 30px;
+  }
+  .badge {
+    display: none;
+  }
+  .questionItem {
+    padding: 1rem 0;
+  }
+  .questionDescrip {
+    text-align: right !important;
+  }
+  .accordion-button {
+    font-size: 0.7rem;
+    text-align: right;
+    line-height: 1.5rem;
+  }
+  .accordion-body {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  .footerNav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: inherit;
+    padding: 5px;
+  }
+}
